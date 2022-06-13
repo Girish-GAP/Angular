@@ -23,7 +23,8 @@ Node. Js is a server-side platform built on Google Chrome Javascript Engine.
 <br><br>
 
 To Check Node installed or not use command : 
-<br>node or node --version
+<br>
+<code>node or node --version</code>
 <br><br>
 ### To Install Node.js : 
 https://nodejs.org/en/download/
@@ -42,10 +43,61 @@ npm is just like the personal assistant who give us what we want from big storag
 <br><br>
 
 npm is automatically installed when we install node.
-<br> To check installation use npm --version
+<br> To check installation use <code> npm --version <\code>
+
+
+## Typescript :
+
+TypeScript is a programming language developed and maintained by Microsoft.
+<br>
+Typescript is the wrapper language of javascript. It is a strict syntactical superset of JavaScript and adds optional static typing to the language.
+<br>
+TypeScript is a strongly typed programming language that builds on JavaScript, giving you better tooling at any scale.
+<br>
+It is designed for the development of large applications and transpiles to JavaScript.
+
+### To Install typescript compiler (Transpiler) : 
+https://nodejs.org/en/download/
+<br>
+npm install -g typescript
+<br>
+<br>
+to check : tsc --version
+
+<br>
+<br> 
+To run typescript program :
+<br>
+tsc filename.ts (it will transpile it to filename.js)
+node filename.js
+<br>
+<br>
 
 
 
+## CLI :
 
+The Angular CLI is a command-line interface tool that you use to initialize, develop, scaffold, and maintain Angular applications directly from a command shell.
+<br><br>
+
+### To Install CLI : 
+npm install -g @angular/cli
+<br>
+<br>
+to check : ng --version
+
+
+## Create one angular project to check environment setup :
+
+- Create new project named as Application01 :
+- *ng new Application01
+- one directory gets created as Application01
+
+<br><br>
+- Go to that directory through cmd prompt and start project.
+- *ng serve --o
+
+<br><br>
+Open browser and go to *http://localhost:4200/ to check the output.
 
 
