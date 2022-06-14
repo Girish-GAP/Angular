@@ -97,7 +97,15 @@ to check : <code> ng --version  </code>
 - Go to that directory through cmd prompt and start project.
 - <code> ng serve --o  </code>
 
-<br><br>
+<br>
+By default our application gets started on port number 4200
+<br>
 Open browser and go to http://localhost:4200/ to check the output.
+<br>
+To change the port :
+<br>
+<code> ng serve --port 9900
+
+
 
 
