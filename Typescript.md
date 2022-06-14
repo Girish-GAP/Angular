@@ -23,6 +23,7 @@ Interpreter check all first then run (typescript)
 Transpiler - a type of compiler that translates between source codes at the same level of abstraction.
 <br><br>
 Every javascript program can considerd as typescript program.
+<br>
 Every typescript program can converted to javascript program.
 <br><br>
 [The execution flow of typescript](https://github.com/Girish-GAP/Angular/blob/6b2baedef2343a2a794f59b486d5233393cc01cd/TypeScriptFlow.jpeg)
