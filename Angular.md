@@ -5,8 +5,8 @@ Angular is an application design framework and development platform for creating
 
 ## Prerequisites 
 
-HTML
-Typescript 
+HTML <br>
+Typescript  <br>
 Javascript
 
 -------------------------------------------------------------
@@ -24,7 +24,7 @@ Node. Js is a server-side platform built on Google Chrome Javascript Engine.
 
 To Check Node installed or not use command : 
 <br>
-<code>node or node --version</code>
+<code> node or node --version </code>
 <br><br>
 ### To Install Node.js : 
 https://nodejs.org/en/download/
@@ -43,7 +43,7 @@ npm is just like the personal assistant who give us what we want from big storag
 <br><br>
 
 npm is automatically installed when we install node.
-<br> To check installation use <code> npm --version <\code>
+<br> To check installation use <code> npm --version </code>
 
 
 ## Typescript :
@@ -59,18 +59,18 @@ It is designed for the development of large applications and transpiles to JavaS
 ### To Install typescript compiler (Transpiler) : 
 https://nodejs.org/en/download/
 <br>
-npm install -g typescript
+<code> npm install -g typescript   </code>
 <br>
 <br>
-to check : tsc --version
+to check :  <code> tsc --version </code>
 
 <br>
 <br> 
 To run typescript program :
 <br>
-tsc filename.ts (it will transpile it to filename.js)
-node filename.js
-<br>
+<code> tsc filename.ts  </code>  (it will transpile it to filename.js)
+<code> node filename.js  </code>
+<br> 
 <br>
 
 
@@ -81,23 +81,23 @@ The Angular CLI is a command-line interface tool that you use to initialize, dev
 <br><br>
 
 ### To Install CLI : 
-npm install -g @angular/cli
+<code> npm install -g @angular/cli  </code>
 <br>
 <br>
-to check : ng --version
+to check : <code> ng --version  </code>
 
 
 ## Create one angular project to check environment setup :
 
 - Create new project named as Application01 :
-- *ng new Application01
+- <code> ng new Application01 </code>
 - one directory gets created as Application01
 
 <br><br>
 - Go to that directory through cmd prompt and start project.
-- *ng serve --o
+- <code> ng serve --o  </code>
 
 <br><br>
-Open browser and go to *http://localhost:4200/ to check the output.
+Open browser and go to http://localhost:4200/ to check the output.
 
 
