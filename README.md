@@ -5,3 +5,4 @@ Angular is a TypeScript-based free and open-source web application framework led
 [2) Typescript](https://github.com/Girish-GAP/Angular/tree/main/TypeScript)   <br><br>
 [3) Project Structure](https://angular.io/guide/file-structure) <br><br>
 [4) Create a Project](https://github.com/Girish-GAP/Angular/tree/main/Create%20First%20Application)
+[5) Child Component Creation](https://github.com/Girish-GAP/Angular/tree/main/Component)
