@@ -21,11 +21,13 @@ To make it a member of an NgModule, list it in the declarations field of the NgM
 
 ## Component Rendering  :
 
-- We have to render component in app.component.html
+- We have to render component in  [app.component.html](https://github.com/Girish-GAP/Angular/blob/main/Component/src/app/app.component.html)
+
   - Add selector of Demo component in app component.
-  - After rendering the html page in app.comp.html the component html page starting to show in app.comp.html
+  - To render the component use custom tag of component in specific .html file.
+  - After rendering the html page in app.comp.html the [Firstcomponent.html](https://github.com/Girish-GAP/Angular/blob/main/Component/src/app/first-component/first-component.component.html) will be start to show in app.comp.html.
 
-
-
+- Nested Component Rendering : 
+  - Render Second component from first component html file [first component html file](https://github.com/Girish-GAP/Angular/blob/main/Component/src/app/first-component/first-component.component.html)
 
  
