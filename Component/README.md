@@ -30,4 +30,5 @@ To make it a member of an NgModule, list it in the declarations field of the NgM
 - Nested Component Rendering : 
   - Render Second component from first component html file [first component html file](https://github.com/Girish-GAP/Angular/blob/main/Component/src/app/first-component/first-component.component.html)
 
+- [Output of html file](https://github.com/Girish-GAP/Angular/blob/main/Component/Output.png)
  
