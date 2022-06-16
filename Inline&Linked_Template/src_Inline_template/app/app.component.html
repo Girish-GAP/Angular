@@ -1,0 +1,17 @@
+<!-- Linked Template Or External Template -->
+
+
+<!-- Static text -->
+<h1>Application 3</h1> 
+
+
+<!-- textfield  -->
+
+<!-- #mydata is the templete referance variable -->
+<input #Mydata type = "text">
+
+<!-- Call Send method and pass text filed value -->
+<button (click) = "Send(Mydata.value)"> Send Data</button>
+
+<!-- Display textfiled data from .ts file -->
+<h2>Data is : {{msg}}</h2>
