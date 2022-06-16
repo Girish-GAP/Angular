@@ -11,6 +11,8 @@ You can create an HTML template in a component in two ways:
 
 ## Inline Template :
 
+- In inline template instead of making saperate html file we write html code in coponent.ts file.
+
 - An inline HTML template for a component is defined using template config in @Component decorator, as shown here. 
 
 - It can be a single line template wrapped inside double quotes or single quotes. 
