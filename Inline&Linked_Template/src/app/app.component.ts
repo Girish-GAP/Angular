@@ -2,8 +2,8 @@ import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  templateUrl: './app.component.html',    // To Linked template we gave url of HTML file
+  styleUrls: ['./app.component.css']      // To Linked CSS we gave url of CSS file
 })
 
 
