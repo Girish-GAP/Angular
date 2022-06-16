@@ -35,3 +35,5 @@ You can add styles conditionally to an element, hence creating a dynamically sty
        [style.style-property] = "style-value"
        
        
+## 2) Class binding :
+
