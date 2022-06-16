@@ -9,13 +9,13 @@ String Interpolation in Angular is a one-way data-binding technique that is used
      {{ component_property }}   
      
 
-- The content inside the double braces is called Template Expression
-- Here how we access [app.component.ts](https://github.com/Girish-GAP/Angular/blob/main/Interpolation/src_Interpolation/app/new-comp/new-comp.component.ts) data
-in [app.component.html](https://github.com/Girish-GAP/Angular/blob/main/Interpolation/src_Interpolation/app/new-comp/new-comp.component.html) html file.
-
+- The content inside the double braces is called Template Expression <br>
 - The Angular first evaluates the Template Expression and converts it into a string. 
 - Then it replaces Template expression with the result in the original string in the HTML. 
 - Whenever the template expression changes, the Angular updates the original string again
+
+- Here how we access [app.component.ts](https://github.com/Girish-GAP/Angular/blob/main/Interpolation/src_Interpolation/app/new-comp/new-comp.component.ts) data
+in [app.component.html](https://github.com/Girish-GAP/Angular/blob/main/Interpolation/src_Interpolation/app/new-comp/new-comp.component.html) html file.
 
 <br>
 
