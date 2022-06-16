@@ -10,10 +10,10 @@ You can create an HTML template in a component in two ways:
 
 
 ## Inline Template :
-
+[(app.component.ts)](https://github.com/Girish-GAP/Angular/blob/main/Inline%26Linked_Template/src_Inline_template/app/app.component.ts) <br>
 - In inline template instead of making saperate html file we write html code in coponent.ts file.
 
-- An inline HTML template for a component is defined using template config in @Component decorator, as shown here. 
+- An inline HTML template for a component is defined using template config in @Component decorator,   [as shown here](https://github.com/Girish-GAP/Angular/blob/main/Inline%26Linked_Template/src_Inline_template/app/app.component.ts) 
 
 - It can be a single line template wrapped inside double quotes or single quotes. 
 
