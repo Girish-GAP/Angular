@@ -1,0 +1,26 @@
+/* Css styles */
+
+h1
+{
+    color : green;
+}
+
+.name
+{
+    color :blueviolet;
+}
+
+.lower
+{
+    color: rgb(153, 158, 49);
+}
+
+.upper
+{
+    color: red;
+}
+
+.concatenation
+{
+    color: chocolate;
+}
