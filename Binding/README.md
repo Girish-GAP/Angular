@@ -8,6 +8,6 @@ What is Angular Data Binding. <br>
 # Data Binding in Angular
 The data binding in Angular can be broadly classified into two groups.  <br>
 [1) One way binding](https://github.com/Girish-GAP/Angular/tree/main/Binding/One%20way%20binding)  <br>
-2) two-way binding
-<br>
+[2) two-way binding](https://github.com/Girish-GAP/Angular/tree/main/Binding/Two%20way%20binding)  <br>
+
 
