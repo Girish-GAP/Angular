@@ -52,7 +52,7 @@ For Example, when the user changes input in a text box, we can update the model 
 When the user submits the button, we can then save the model to the backend server.
 
 ### Syntax :
-       <target-event)="TemplateStatement"
+       <(target-event)="TemplateStatement"
        
 Angular event binding syntax consists of a target event name within parentheses on the left of an equal sign, and a quoted template statement on the right.
 
