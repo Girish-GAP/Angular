@@ -48,6 +48,7 @@ that any changes made in the view are immediately updated in the underlying comp
 - It then uses the ngModelChange event to sets up the event binding to listen to the changes to the value.
 
 -----------------------------------
+[Output](https://github.com/Girish-GAP/Angular/blob/main/Binding/Two%20way%20binding/Output_Twoway_Binding.png) 
 
 
 
