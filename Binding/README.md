@@ -36,4 +36,9 @@ You can add styles conditionally to an element, hence creating a dynamically sty
        
        
 ## 2) Class binding :
+The Angular Class binding is used to add or remove classes to and from the HTML elements. 
+
+You can add CSS Classes conditionally to an element, hence creating a dynamically styled element.
+
+
 
