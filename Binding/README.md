@@ -63,3 +63,7 @@ When the user submits the button, we can then save the model to the backend serv
        
 Angular event binding syntax consists of a target event name within parentheses on the left of an equal sign, and a quoted template statement on the right.
 
+-------------------------------------------------
+
+[Output](https://github.com/Girish-GAP/Angular/blob/main/Binding/Output-binding.png) 
+
