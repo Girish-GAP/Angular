@@ -27,7 +27,7 @@ that any changes made in the view are immediately updated in the underlying comp
  - The ngModel directive is not part of the Angular Core library. 
  
  
- - It is part of the @angular/forms. You need to import the FormsModule package into your Angular module.
+ - It is part of the @angular/forms. You need to import the FormsModule package into your [Angular module](https://github.com/Girish-GAP/Angular/blob/main/Binding/Two%20way%20binding/src/app/app.module.ts).
  
  #### 
         import { FormsModule } from '@angular/forms';
