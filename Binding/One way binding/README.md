@@ -6,7 +6,7 @@ Either from view to component or from component to view.
 -----------------------------------
 
 ## - From Component to View :
-To bind data from component to view, we make use of [Interpolation](https://github.com/Girish-GAP/Angular/blob/main/Interpolation/src_Interpolation/README.md) & [Property Binding](https://github.com/Girish-GAP/Angular/blob/main/Interpolation/src_Interpolation/README.md).
+To bind data from component to view, we make use of [Interpolation](https://github.com/Girish-GAP/Angular/blob/main/Interpolation/src_Interpolation/README.md) & [Property Binding](https://www.tektutorialshub.com/angular/angular-data-binding/#property-binding).
 
 Property binding contains : 
 
