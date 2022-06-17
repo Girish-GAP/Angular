@@ -50,7 +50,7 @@ You can add CSS Classes conditionally to an element, hence creating a dynamicall
 ## - From View to Component :
 
 ## 1) Event Binding :
-[eventbinding.component.ts](https://github.com/Girish-GAP/Angular/blob/main/Binding/src/app/eventbinding/eventbinding.component.ts)         |   [eventbinding.component.html](https://github.com/Girish-GAP/Angular/blob/main/Binding/src/app/eventbinding/eventbinding.component.html)   |   
+[eventbinding.component.ts](https://github.com/Girish-GAP/Angular/blob/main/Binding/src/app/eventbinding/eventbinding.component.ts)         |   [eventbinding.component.html](https://github.com/Girish-GAP/Angular/blob/main/Binding/src/app/eventbinding/eventbinding.component.html)   
 
 Event binding allows us to bind events such as keystrokes, clicks, hover, touch, etc to a method in component. <br><br>
 It is one way from view to component.     <br><br>
