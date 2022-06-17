@@ -69,6 +69,7 @@ Angular event binding syntax consists of a target event name within parentheses 
 
 
 --------------------------------------------------
-### Practice question
+### [Practice question](https://github.com/Girish-GAP/Angular/tree/main/Binding/Practice_question) 
+
 
 
