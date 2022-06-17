@@ -1,0 +1,25 @@
+<!-- Class binding -->
+
+<!--By using class attributes we can use class from css file-->
+<!-- html class attribute -->
+<h1 class = "title"> Class Binding</h1>
+
+
+
+<!-- The ClassName is the property name of HTML Element. Hence we can make use of Property binding to assign the class name to any HTML element. -->
+<!-- The following example assigns CSS Class title to the h2 element. -->
+<h2 [className]="'title' ">class name property</h2>
+
+<!--We can also use like proerty binding for the class-->
+<!-- in .ts file there should be attribute named as classvar-->
+<h2 [class] = "classvar" > Give class to tag from ts file</h2>
+
+
+<!-- We can set class property depending upon the condition-->
+<!--If IsSet is true then it will be came under title class other wise not -->
+<h2 [class.title] = "IsSet">Set property depends on condition</h2>
+
+
+<!-- You can create a function, which returns the class based on some condition. -->
+<!-- and then use it in the template as shown below. -->
+<h2 [className] = "getClass()">From function return</h2>
