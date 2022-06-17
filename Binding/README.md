@@ -27,6 +27,9 @@ Property binding contains :
 
 
 ## 1) Style binding : 
+
+[stylebinding.component.ts](https://github.com/Girish-GAP/Angular/blob/main/Binding/src/app/stylebinding/stylebinding.component.ts)         |   [stylebinding.component.html](https://github.com/Girish-GAP/Angular/blob/main/Binding/src/app/stylebinding/stylebinding.component.html) 
+
 We can set the inline styles of a HTML element using the style binding in angular. <br><br>
 You can add styles conditionally to an element, hence creating a dynamically styled element.
 
@@ -36,6 +39,8 @@ You can add styles conditionally to an element, hence creating a dynamically sty
        
        
 ## 2) Class binding :
+[classbinding.component.ts](https://github.com/Girish-GAP/Angular/blob/main/Binding/src/app/classbinding/classbinding.component.ts)         |   [classbinding.component.html](https://github.com/Girish-GAP/Angular/blob/main/Binding/src/app/classbinding/classbinding.component.html)   |   [cclassbinding.component.css](https://github.com/Girish-GAP/Angular/blob/main/Binding/src/app/classbinding/classbinding.component.css) 
+
 The Angular Class binding is used to add or remove classes to and from the HTML elements. 
 
 You can add CSS Classes conditionally to an element, hence creating a dynamically styled element.
@@ -45,6 +50,8 @@ You can add CSS Classes conditionally to an element, hence creating a dynamicall
 ## - From View to Component :
 
 ## 1) Event Binding :
+[eventbinding.component.ts](https://github.com/Girish-GAP/Angular/blob/main/Binding/src/app/eventbinding/eventbinding.component.ts)         |   [eventbinding.component.html](https://github.com/Girish-GAP/Angular/blob/main/Binding/src/app/eventbinding/eventbinding.component.html)   |   
+
 Event binding allows us to bind events such as keystrokes, clicks, hover, touch, etc to a method in component. <br><br>
 It is one way from view to component.     <br><br>
 By tracking the user events in the view and responding to it, we can keep our component in sync with the view. <br><br>
