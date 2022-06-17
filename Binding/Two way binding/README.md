@@ -42,7 +42,7 @@ that any changes made in the view are immediately updated in the underlying comp
 - When you bind to a ngModel directive, behind the scene it sets up property binding & event binding. 
 
 
-- It binds to the value property of the element using property binding. 
+- It binds to the value property of the element using property binding
 
 
 - It then uses the ngModelChange event to sets up the event binding to listen to the changes to the value.
