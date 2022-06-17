@@ -15,7 +15,9 @@ The data binding in Angular can be broadly classified into two groups.  <br>
 In one way binding data flows from one direction. <br>
 Either from view to component or from component to view.
 
-## 1. From Component to View :
+-----------------------------------
+
+## - From Component to View :
 To bind data from component to view, we make use of [Interpolation](https://github.com/Girish-GAP/Angular/blob/main/Interpolation/src_Interpolation/README.md) & [Property Binding](https://github.com/Girish-GAP/Angular/blob/main/Interpolation/src_Interpolation/README.md).
 
 Property binding contains : 
@@ -23,8 +25,6 @@ Property binding contains :
 1) Style binding
 2) Class binding
 
-
-4) Event binding
 
 ## 1) Style binding : 
 We can set the inline styles of a HTML element using the style binding in angular. <br><br>
@@ -40,5 +40,19 @@ The Angular Class binding is used to add or remove classes to and from the HTML 
 
 You can add CSS Classes conditionally to an element, hence creating a dynamically styled element.
 
+------------------------------------
 
+## - From View to Component :
+
+## 1) Event Binding :
+Event binding allows us to bind events such as keystrokes, clicks, hover, touch, etc to a method in component. <br><br>
+It is one way from view to component.     <br><br>
+By tracking the user events in the view and responding to it, we can keep our component in sync with the view. <br><br>
+For Example, when the user changes input in a text box, we can update the model in the component, run some validations, etc. <br><br>
+When the user submits the button, we can then save the model to the backend server.
+
+### Syntax :
+       <target-event)="TemplateStatement"
+       
+Angular event binding syntax consists of a target event name within parentheses on the left of an equal sign, and a quoted template statement on the right.
 
