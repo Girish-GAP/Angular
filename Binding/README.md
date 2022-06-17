@@ -67,3 +67,8 @@ Angular event binding syntax consists of a target event name within parentheses 
 
 [Output](https://github.com/Girish-GAP/Angular/blob/main/Binding/Output-binding.png) 
 
+
+--------------------------------------------------
+### Practice question
+
+
