@@ -1,19 +1,17 @@
 # Inter Component Communication 
 
- A typical Angular application consists of a lot of components. 
+ - A typical Angular application consists of a lot of components. 
+ - Each component handles a small part of the UI. 
+ - These components must interact or communicate together to produce the complete user interface of the application
+ - There are few ways in which components can communicate or share data between them. 
+ - And methods depend on whether the components have a Parent-child relationship between them are not.
  
- Each component handles a small part of the UI. 
- 
- 
- These components must interact or communicate together to produce the complete user interface of the application
- 
- There are few ways in which components can communicate or share data between them. 
- 
- 
- And methods depend on whether the components have a Parent-child relationship between them are not.
+ <br>
  
 1) Parent to Child Communication
 2) Child to Parent Communication
+
+ <br>
 
 
 ## 1) Parent to Child
@@ -21,10 +19,13 @@
 [app.component.ts](https://github.com/Girish-GAP/Angular/blob/main/InterComponentCommunication/ParentToChild/app/app.component.ts)    |     [app.component.html](https://github.com/Girish-GAP/Angular/blob/main/InterComponentCommunication/ParentToChild/app/app.component.html)
 &nbsp;    ||    &nbsp;     [child.component.ts](https://github.com/Girish-GAP/Angular/blob/main/InterComponentCommunication/ParentToChild/app/child/child.component.ts)      |      [child.component.html](https://github.com/Girish-GAP/Angular/blob/main/InterComponentCommunication/ParentToChild/app/child/child.component.html)
 
-If the Components have a parent-child relationship then, 
-Parent can send data to child at the time of creation. 
-the parent component can pass the data to the child using the @input Property.
+ <br>
+ 
+- If the Components have a parent-child relationship then, 
+- Parent can send data to child at the time of creation. 
+- the parent component can pass the data to the child using the @input Property.
 
+ <br>
 
 Create a property (someProperty) in the [Child Component](https://github.com/Girish-GAP/Angular/blob/main/InterComponentCommunication/ParentToChild/app/child/child.component.ts)
 and decorate it with @Input(). 
