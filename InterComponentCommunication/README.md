@@ -8,7 +8,7 @@
  
  <br>
  
-1) Parent to Child Communication
+[1) Parent to Child Communication](https://github.com/Girish-GAP/Angular/tree/main/InterComponentCommunication/ParentToChild)
 2) Child to Parent Communication
 
  <br>
