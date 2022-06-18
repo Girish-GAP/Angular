@@ -11,7 +11,8 @@ export class AppComponent
 {
 
   title = 'ParenttoChild';
-
+  
+  // This values are send from parent while creation
   public Message1 = 'Hello child component.. !';
   public Message2 = 'I can send multiple message also';
 
