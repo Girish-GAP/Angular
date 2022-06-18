@@ -1,4 +1,4 @@
-import { Component, Input} from '@angular/core';
+import { Component, Input} from '@angular/core';    // We have to import input from '@angular/core'
 
 @Component({
   selector: 'app-child',
