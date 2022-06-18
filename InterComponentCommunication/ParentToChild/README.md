@@ -7,7 +7,7 @@
  <br>
  
 - If the Components have a parent-child relationship then, 
-- Parent can send data to child at the time of creation. 
+- Parent can send data to child at the time of component rendering. 
 - the parent component can pass the data to the child using the @input Property.
 
  <br>
