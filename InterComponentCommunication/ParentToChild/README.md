@@ -28,3 +28,7 @@ Pass the value to the someProperty using the Property Bind Syntax
       <child-component [someProperty]=value></child-component>
       
  In this way, Child Component will receive the data from the parent.
+ 
+ ---------------------------
+ 
+ [Output](https://github.com/Girish-GAP/Angular/blob/main/InterComponentCommunication/ParentToChild/ParentToChild.png)
