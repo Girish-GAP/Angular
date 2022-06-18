@@ -1,0 +1,15 @@
+<h1>
+  Inside parent component
+</h1>
+
+
+<!-- Rendering child component -->
+<!-- if msg comes from Myevent then copy it in Data it will be an event -->
+<!-- <app-child (Myevent) = "Data = $event"></app-child> -->
+
+<!-- We can pass multiple data also -->
+<app-child (Myevent) = "Data = $event" (Myevent) = "Data = $event" (Myevent2) = "Data2 = $event"></app-child>
+<h1>message from child : {{Data}}</h1>
+
+<br><br><br>
+<h1>message from child : {{Data2}}</h1>
