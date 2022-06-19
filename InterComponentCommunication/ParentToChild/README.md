@@ -21,7 +21,7 @@ This will mark the property as input property
     @Input() someProperty: number;
     }
     
-And in the[Parent Component](https://github.com/Girish-GAP/Angular/blob/main/InterComponentCommunication/ParentToChild/app/app.component.html) Instantiate the Child Component. 
+And in the [Parent Component](https://github.com/Girish-GAP/Angular/blob/main/InterComponentCommunication/ParentToChild/app/app.component.html) Instantiate the Child Component. 
 Pass the value to the someProperty using the Property Bind Syntax
 
 ## 
