@@ -1,5 +1,7 @@
 # Child to Parent Communication 
 
+[child.component.ts](https://github.com/Girish-GAP/Angular/blob/main/InterComponentCommunication/ChildToParent/app/child/child.component.ts)          |  [child.component.html](https://github.com/Girish-GAP/Angular/blob/main/InterComponentCommunication/ChildToParent/app/child/child.component.html)         ||    [app.component.html](https://github.com/Girish-GAP/Angular/blob/main/InterComponentCommunication/ChildToParent/app/app.component.html)                |   [app.component.ts](https://github.com/Girish-GAP/Angular/blob/main/InterComponentCommunication/ChildToParent/app/app.module.ts) 
+
 - The Child to Parent communication can happen by emit data from the child, which can be listed to by the parent.
 
 
@@ -21,7 +23,7 @@ entries, and other user events.
 
 - The Event can be emitted by calling the .emit() method
 
-### For Example
+### [For Example](https://github.com/Girish-GAP/Angular/blob/main/InterComponentCommunication/ChildToParent/app/child/child.component.ts) 
       @Output() Myevent:  = new EventEmitter();
       
 #### And then call emit method passing the whatever the data you want to send as shown below :
@@ -38,18 +40,18 @@ entries, and other user events.
 
 ### How to Pass data to parent component using @Output :
 
-- In the child component
+### - [In the child component](https://github.com/Girish-GAP/Angular/blob/main/InterComponentCommunication/ChildToParent/app/child/child.component.ts) 
 
 1) Declare a property of type EventEmitter and instantiate it
 2) Mark it with a @Output Decorator
 3) Raise the event passing it with the desired data
 
-### In the Parent Component :
+### - [In the Parent Component](https://github.com/Girish-GAP/Angular/blob/main/InterComponentCommunication/ChildToParent/app/app.component.html)  
 
 1) Bind to the Child Component using Event Binding and listen to the child events
 2) Define the event handler function
 
-### For Example
+### [For example](https://github.com/Girish-GAP/Angular/blob/main/InterComponentCommunication/ChildToParent/app/app.component.html)  
     <app-child (Myevent) = "Data = $event"></app-child>
 
 We are listning to Myevent and whatever we are listning we are stoaring in Data attribute.
