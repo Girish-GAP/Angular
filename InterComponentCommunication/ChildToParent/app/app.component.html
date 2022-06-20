@@ -7,7 +7,7 @@
 <!-- if msg comes from Myevent then copy it in Data it will be an event -->
 <!-- <app-child (Myevent) = "Data = $event"></app-child> -->
 
-<!-- We can pass multiple data also -->
+<!-- We can pass multiple data also from child  -->
 <app-child (Myevent) = "Data = $event" (Myevent) = "Data = $event" (Myevent2) = "Data2 = $event"></app-child>
 <h1>message from child : {{Data}}</h1>
 
