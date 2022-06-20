@@ -54,4 +54,4 @@ entries, and other user events.
 ### [For example](https://github.com/Girish-GAP/Angular/blob/main/InterComponentCommunication/ChildToParent/app/app.component.html)  
     <app-child (Myevent) = "Data = $event"></app-child>
 
-We are listning to Myevent and whatever we are listning we are stoaring in Data attribute.
+We are listning to Myevent and whatever we are listning we are stoaring it in Data attribute.
