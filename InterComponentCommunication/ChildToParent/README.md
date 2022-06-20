@@ -46,7 +46,7 @@ entries, and other user events.
 2) Mark it with a @Output Decorator
 3) Raise the event passing it with the desired data
 
-### - [In the Parent Component](https://github.com/Girish-GAP/Angular/blob/main/InterComponentCommunication/ChildToParent/app/app.component.html)  
+### - [In the parent component](https://github.com/Girish-GAP/Angular/blob/main/InterComponentCommunication/ChildToParent/app/app.component.html)  
 
 1) Bind to the Child Component using Event Binding and listen to the child events
 2) Define the event handler function
