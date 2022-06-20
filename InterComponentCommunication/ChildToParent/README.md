@@ -59,4 +59,4 @@ We are listning to Myevent and whatever we are listning we are stoaring it in Da
 
 ------------------------------------------------------
 
-[Output](https://github.com/Girish-GAP/Angular/blob/main/InterComponentCommunication/ChildToParent/ChildToParent_Output.png)
+## [Output](https://github.com/Girish-GAP/Angular/blob/main/InterComponentCommunication/ChildToParent/ChildToParent_Output.png)
