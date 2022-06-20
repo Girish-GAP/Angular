@@ -55,3 +55,8 @@ entries, and other user events.
     <app-child (Myevent) = "Data = $event"></app-child>
 
 We are listning to Myevent and whatever we are listning we are stoaring it in Data attribute.
+
+
+------------------------------------------------------
+
+[Output](https://github.com/Girish-GAP/Angular/blob/main/InterComponentCommunication/ChildToParent/ChildToParent_Output.png)
