@@ -9,3 +9,6 @@
 - [Dependancy Injection](https://github.com/Girish-GAP/Angular/blob/main/Service_Dependancy/Dependancy.md)
 - [Observables](https://github.com/Girish-GAP/Angular/blob/main/Service_Dependancy/observables.md)
  
+------------------------------------------------- 
+### 1) Static Service
+### 2) Dynamic Service
