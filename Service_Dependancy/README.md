@@ -24,13 +24,10 @@
 ------------------------------------------------- 
 
 ## How to create a Service in Angular
-An Angular service is simply a Javascript function. 
+- An Angular service is simply a Javascript function. 
+- All we need to do is to create a class and add methods & properties. 
+- We can then create an instance of this class in our component and call its methods.
+- One of the best uses of services is to get the data from the data source. 
 
-All we need to do is to create a class and add methods & properties. 
-
-We can then create an instance of this class in our component and call its methods.
-
-One of the best uses of services is to get the data from the data source. 
-
-### 1) Static Service Example
-### 2) Dynamic Service Example
+### [1) Static Service Example](https://github.com/Girish-GAP/Angular/tree/main/Service_Dependancy/Service/src_Static_Service)
+### [2) Dynamic Service Example](https://github.com/Girish-GAP/Angular/tree/main/Service_Dependancy/ServiceWithJsonData/src_Dynamic_Service)
