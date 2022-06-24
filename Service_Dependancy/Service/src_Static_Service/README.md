@@ -62,11 +62,13 @@ Now we can access http methods (GET, PUSH, etc..) by '_Obj' object of http.
         
 rxjs is the reactive extension of js.
 
-#### 6) Component service call 
+### 6) Component service call 
 
-i) Define Call method for service in component.
+#### i) Define Call method for service in component.
+        
+[batchList.component.ts](https://github.com/Girish-GAP/Angular/blob/main/Service_Dependancy/ServiceWithJsonData/src_Dynamic_Service/app/batchlist/batchlist.component.ts)       |       [batchDetail.component.ts](https://github.com/Girish-GAP/Angular/blob/main/Service_Dependancy/ServiceWithJsonData/src_Dynamic_Service/app/bathdetails/bathdetails.component.ts)
 
-ii) Define Call method for http which return the data from server.
+#### ii) Define Call method for http which return the data from server.
 
-
+[batchService.service.ts](https://github.com/Girish-GAP/Angular/blob/main/Service_Dependancy/ServiceWithJsonData/src_Dynamic_Service/app/batchservice.service.ts)    
                 
