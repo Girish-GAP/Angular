@@ -10,4 +10,5 @@ Angular is a TypeScript-based free and open-source web application framework led
 [7) Inline and Linked Template](https://github.com/Girish-GAP/Angular/tree/main/Inline%26Linked_Template)<br><br>
 [8) Binding](https://github.com/Girish-GAP/Angular/tree/main/Binding)<br><br>
 [9) Inter Component Communication](https://github.com/Girish-GAP/Angular/tree/main/InterComponentCommunication)<br><br>
+[10) Service and Dependency](https://github.com/Girish-GAP/Angular/tree/main/Service_Dependancy)<br><br>
 [- References](https://github.com/Girish-GAP/Angular/blob/main/Reference.md)
