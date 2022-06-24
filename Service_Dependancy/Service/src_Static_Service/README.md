@@ -4,6 +4,12 @@
 
 ## How to use Service in Angular
 
+
+[studentDataService.component.ts](https://github.com/Girish-GAP/Angular/blob/main/Service_Dependancy/Service/src_Static_Service/app/student-data.service.ts)            |               [app.module.ts](https://github.com/Girish-GAP/Angular/blob/main/Service_Dependancy/Service/src_Static_Service/app/app.module.ts)
+
+[child.component.ts](https://github.com/Girish-GAP/Angular/blob/main/Service_Dependancy/Service/src_Static_Service/app/child/child.component.ts)
+
+
 ### 1) Create new service
 
         ng generate service service_name
