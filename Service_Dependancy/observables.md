@@ -52,7 +52,7 @@
 <br>
 
 in our example there is an service name 'batchService' which provide the students data to the child components which are 
-  batchList and batchDetails by feaching data from json file (json file represents the database of server).
+  batchList and batchDetails by feaching data from json file (json file represents the database which come from server).
   
   
   
