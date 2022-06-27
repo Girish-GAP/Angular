@@ -21,3 +21,42 @@ The outerOutlet is a directive (<router-outlet>) that serves as a placeholder, w
 - Clicking on the HTML element, which is bound to a RouterLink, will result in navigation to the Route. 
 - The RouterLink may contain parameters to be passed to the route’s component.
 
+## ROUTES AND PATHSS 
+
+### Static route :
+- Each Route maps a URL path to a component. 
+
+### Default route 
+- The path can be empty which denotes the default path of an application and it's usually the start of the application. 
+
+### Wildcard route
+- The path can take a wildcard string (**). 
+- The router will select this route if the requested URL doesn't match any paths for the defined routes. 
+- This can be used for displaying a "Not Found" view or redirecting to a specific view if no match is found. 
+
+#### This is an example of a route: 
+    {path: 'batches', component: batchesComponent} 
+
+- If this route definition is provided to the Router configuration, the router will render batchesComponent when the browser URL for the web application becomes/ 
+batches. 
+----------------------------------------------------------------------------------------
+
+## Enable Routing in Angular Application.
+
+1) Create a angular project with routing.
+2) Add routes tags in app-routing.ts file
+3) Add components tags in app-routing.ts file
+4) Add routing paths in tuple form
+#### Static route : 
+      {path : 'batches', component : BatchesComponent}
+      
+#### Default route : 
+      {path : '', component : BatchesComponent}
+      
+#### Wildcard route :
+      {path : '**', component : BatchesComponent}
+      
+      
+5) Navigation links and Hypertext
+#### Add router links to navigate in view of app
+        <a routerlLink="/batches"> Batches </a> 
