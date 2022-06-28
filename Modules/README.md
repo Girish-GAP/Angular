@@ -4,6 +4,7 @@
 - The following tutorial explains, how best you can create an Angular Module, The folder structure that you can use, etc. 
 - We can also load the Modules lazily or Preload thus improving the performance of the Application.
 
+[Angular Modules](https://www.tektutorialshub.com/angular/angular-modules)
 
 # How to use Modules :
 
