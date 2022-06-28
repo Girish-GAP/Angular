@@ -37,3 +37,6 @@
 ## How to route and add routing links 
  - Same as privious routing chapter.
  - Just add path and component name inside [app.routing.module.ts](https://github.com/Girish-GAP/Angular/blob/main/Modules/MultiModule_src/app/app-routing.module.ts)
+ 
+ 
+[Output of example](https://github.com/Girish-GAP/Angular/blob/main/Modules/MultiModule_Output.png)
