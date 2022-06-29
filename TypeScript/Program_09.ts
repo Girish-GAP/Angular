@@ -13,7 +13,7 @@
 /////////////////////////////////////////////////////////////////////////////////////
 
 
-// Solution function
+// Solution function (fat arrow function)
 var ChkArmstrong = (No : number) : boolean =>
 {
     // Logic
