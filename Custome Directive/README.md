@@ -38,6 +38,6 @@ directive.
 - We can access the DOM element via the property nativeElement. 
 - The style method allows us to add the property to the element.
 
-----------------------------
+-----------------------------
 
 [Output](https://github.com/Girish-GAP/Angular/blob/main/Custome%20Directive/Output_Cutome_Directive.png)
