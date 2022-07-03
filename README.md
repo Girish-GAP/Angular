@@ -14,7 +14,7 @@ Angular is a TypeScript-based free and open-source web application framework led
 [11) Routing](https://github.com/Girish-GAP/Angular/blob/main/Routing/README.md) <br><br>
 [12) Angular Modules](https://github.com/Girish-GAP/Angular/tree/main/Modules)<br><br>
 [13) Lazy Loading](https://github.com/Girish-GAP/Angular/tree/main/LazyLoading)<br><br>
-[14) Custome Directive](https://github.com/Girish-GAP/Angular/tree/main/Custome%20Directive)
+[14) Custome Directive](https://github.com/Girish-GAP/Angular/tree/main/Custome%20Directive)<br><br>
 [15) Pipes](https://github.com/Girish-GAP/Angular/tree/main/Pipe)
 
 [- References](https://github.com/Girish-GAP/Angular/blob/main/Reference.md)
