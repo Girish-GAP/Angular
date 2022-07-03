@@ -44,8 +44,8 @@ batches.
 ## Enable Routing in Angular Application.
 
 1) Create a angular project with routing.
-2) Add routes tags in app-routing.ts file
-3) Add components tags in app-routing.ts file
+2) Add routes tags in [app-routing.ts](https://github.com/Girish-GAP/Angular/blob/main/Routing/Routing_src/app/app-routing.module.ts) file
+3) Add components tags in [app-routing.ts](https://github.com/Girish-GAP/Angular/blob/main/Routing/Routing_src/app/app-routing.module.ts) file
 4) Add routing paths in tuple form
 #### Static route : 
       {path : 'batches', component : BatchesComponent}
@@ -58,5 +58,8 @@ batches.
       
       
 5) Navigation links and Hypertext
+
+[app.component.html](https://github.com/Girish-GAP/Angular/blob/main/Routing/Routing_src/app/app.component.html)
+
 #### Add router links to navigate in view of app
         <a routerlLink="/batches"> Batches </a> 
