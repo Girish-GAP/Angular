@@ -1,0 +1,54 @@
+<div style="color: red;">
+    <h1>Application For Inbuilt Pipe</h1>
+    
+  </div>
+  
+  
+  <!-- no = 123.4567 -->
+  
+  <h1 style="color: blue;"> Pipes for Numbers</h1>
+  <!-- digits befor decimal point should be 1
+       after decimal point should min 2 and max 3 -->
+  <h2>{{no | number : '1.2-3'}}</h2>  <!-- 123.457 -->
+  
+  <!-- digits befor decimal point should be atleast 3
+       after decimal point should min 2 and max 3 -->
+  <h2>{{no | number : '3.2-3'}}</h2>
+  
+  
+  <!-- name = "Girish pawar" -->
+  <br>
+  <h1 style="color: blueviolet;" >Pipes for Strings</h1>
+  <h2>{{name | lowercase}}</h2>
+  <h2>{{name | uppercase}}</h2>
+  <!-- Used to convert into title case -->
+  <h2>{{name | titlecase}}</h2>
+  <!-- used to break the string (slice first 6 characters) -->
+  <h2>{{name | slice : 6}}</h2>
+  <!-- (take from character 1 to 6)  -->
+  <h2>{{name | slice : 1 : 6}}</h2>
+  
+  
+  <!-- Pipes for JSON output -->
+  <br>
+  <h1 style="color: rgb(52, 200, 54);" >Pipes for json</h1>
+  <h2>{{bio | json}}</h2>
+  
+  
+  <!-- Pipes for Currency -->
+  <br>
+  <h1 style="color: rgb(223, 140, 68);" >Pipes for Currency</h1>
+  <h2>{{0.78 | percent}}</h2>
+  <!-- Currency defualt to dollers -->
+  <h2>{{78 | currency}}</h2>  
+  <h2>{{78 | currency : 'INR'}}</h2>
+  
+  
+  <!-- Pipes for Date-->
+  <br>
+  <h1 style="color: rgb(10, 105, 142);" >Pipes for Dates</h1>
+  <!-- for today method in declared in ts file -->
+  <h2>{{today}}</h2>
+  <h2>{{today | date : 'short'}}</h2>
+  <h2>{{today | date : 'shortDate'}}</h2>
+  <h2>{{today | date : 'shortTime'}}</h2>
