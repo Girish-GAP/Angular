@@ -44,6 +44,7 @@ batches.
 ## Enable Routing in Angular Application.
 
 1) Create a angular project with routing.
+   (make sure app.component.html contans routing enable tag)
 2) Add routes tags in [app-routing.ts](https://github.com/Girish-GAP/Angular/blob/main/Routing/Routing_src/app/app-routing.module.ts) file
 3) Add components tags in [app-routing.ts](https://github.com/Girish-GAP/Angular/blob/main/Routing/Routing_src/app/app-routing.module.ts) file
 4) Add routing paths in tuple form
