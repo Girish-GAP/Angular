@@ -48,11 +48,13 @@ Create a new Folder eg. FullStack.
 - We have to create the lifeCycle-hook(ngOnIt) method inside component.
 - This method will call Service method for data by subscribing it.
 - To call service method we have to do dependecny injection of service inside component.
+- The concept of service injcet to client is explained in [Service Dependency](https://github.com/Girish-GAP/Angular/tree/main/Service_Dependancy/ServiceWithJsonData/src_Dynamic_Service) topic.
 
 [employee-data.service.ts](https://github.com/Girish-GAP/Angular/blob/main/Server%26Client/src_Client/app/employee-data.service.ts)
 - Service contans a local method which will call server method by routing address of it.
 - Service method will use http protocol for connection to server.
 - To use http protocol we have to do dependency injection of http inside server.
+- The concept of http inject in service is explained in [Service Dependency](https://github.com/Girish-GAP/Angular/tree/main/Service_Dependancy/ServiceWithJsonData/src_Dynamic_Service) topic.
 
 [proxy.conf.json](https://github.com/Girish-GAP/Angular/blob/main/Server%26Client/proxy.conf.json)
 - We have to proxy.conf.json file inside client application explicitly.
