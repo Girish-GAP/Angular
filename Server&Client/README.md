@@ -4,8 +4,9 @@
 
 ## Setup for Client-Sever connection 
 
-[Basic File Structure](https://github.com/Girish-GAP/Angular/blob/main/Server%26Client/Server-Client_FileStructure.png) for connection.
+[Basic File Structure for connection.](https://github.com/Girish-GAP/Angular/blob/main/Server%26Client/Server-Client_FileStructure.png) 
 
+------------------------------------------
 Create a new Folder eg. FullStack.
 
 ### Client Side
@@ -48,6 +49,8 @@ Create a new Folder eg. FullStack.
 
 [Basic Overview of Data Flow](https://github.com/Girish-GAP/Angular/blob/main/Server%26Client/DataFlow_Server-server.png)
 
+-----------------------------------------------------
+
 [employee.component.ts](https://github.com/Girish-GAP/Angular/blob/main/Server%26Client/src_Client/app/employee/employee.component.ts) 
 - We have to create the lifeCycle-hook(ngOnIt) method inside component.
 - This method will call Service method for data by subscribing it.
@@ -76,4 +79,23 @@ Create a new Folder eg. FullStack.
 <em>[ *Note : If server started by running 'node api.js' then if any change in api.js file require restart server to see effect of changes ]</em>
 
 
+-----------------------------------------------------
+
+## Run Application
+
+#### 1] Run Server : node server-logic-file.js
+            node api.js
+
+#### Run Client :
+            ng serve --proxy-config proxy.conf.json
+
+      
+---------------------------------------
+
+### Output :
+
+[Client Output-1](https://github.com/Girish-GAP/Angular/blob/main/Server%26Client/Client_Output.png)
+[Client Output-2](https://github.com/Girish-GAP/Angular/blob/main/Server%26Client/Client_Output-2.png)
+
+[Server Output](https://github.com/Girish-GAP/Angular/blob/main/Server%26Client/Server_Output.png)
 
