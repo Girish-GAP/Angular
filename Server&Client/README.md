@@ -95,6 +95,7 @@ Create a new Folder eg. FullStack.
 ### Output :
 
 [Client Output-1](https://github.com/Girish-GAP/Angular/blob/main/Server%26Client/Client_Output.png)
+
 [Client Output-2](https://github.com/Girish-GAP/Angular/blob/main/Server%26Client/Client_Output-2.png)
 
 [Server Output](https://github.com/Girish-GAP/Angular/blob/main/Server%26Client/Server_Output.png)
