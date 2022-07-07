@@ -54,3 +54,18 @@ Create a new Folder eg. FullStack.
 - Service method will use http protocol for connection to server.
 - To use http protocol we have to do dependency injection of http inside server.
 
+[proxy.conf.json](https://github.com/Girish-GAP/Angular/blob/main/Server%26Client/proxy.conf.json)
+- We have to proxy.conf.json file inside client application explicitly.
+- This file contains the information of server connection eg. portnumber etc..
+
+<em> [ *Note : Any change in proxy.conf.json file require restart everything to see effect of changes ] </em>
+
+--------------------------------------------------
+
+[api.js](https://github.com/Girish-GAP/Angular/blob/main/Server%26Client/server-api/api.js)
+- Inside api.js we write the logic for server.
+- This file contains node-js as a run time environment and express-js as a framework.
+- We create the object of express and use it's methods.
+
+<em>[ *Note : If server started by running 'node api.js' then if any change in api.js file require restart server to see effect of changes ]</em>
+
