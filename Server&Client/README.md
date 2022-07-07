@@ -31,3 +31,26 @@ Create a new Folder eg. FullStack.
 - It will install express for our project only.
 - It's an third party, require Internet connection to install.
 - '--save' to convey we don't want it locally we want it inside our folder they do it by default but its just a precation.
+
+#### 3] Create package.json inside api-server.
+               npm init --yes
+              
+- Intilize node package manager.
+
+#### 4] Create [api.js](https://github.com/Girish-GAP/Angular/blob/main/Server%26Client/server-api/api.js) inside api-server.
+- It will contain the server logic.
+
+--------------------------------------------------------------
+
+## Client-Server Connection
+
+[employee.component.ts](https://github.com/Girish-GAP/Angular/blob/main/Server%26Client/src_Client/app/employee/employee.component.ts) 
+- We have to create the lifeCycle-hook(ngOnIt) method inside component.
+- This method will call Service method for data by subscribing it.
+- To call service method we have to do dependecny injection of service inside component.
+
+[employee-data.service.ts](https://github.com/Girish-GAP/Angular/blob/main/Server%26Client/src_Client/app/employee-data.service.ts)
+- Service contans a local method which will call server method by routing address of it.
+- Service method will use http protocol for connection to server.
+- To use http protocol we have to do dependency injection of http inside server.
+
