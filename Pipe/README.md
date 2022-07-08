@@ -41,7 +41,7 @@ Expression : is the expression, which you want to transform
 #### 2) Make sure entry of cutome pipe inside Angular Module
 [app.module.ts](https://github.com/Girish-GAP/Angular/blob/main/Pipe/src_pipe/app/app.module.ts)
 
-#### 3) Write Custome-pipe logic inside Transform method of pipe file.
+#### 3) Write Custome-pipe logic inside Transform method of pipe ts file.
 [mypipe.pipe.ts](https://github.com/Girish-GAP/Angular/blob/main/Pipe/src_pipe/app/mypipe.pipe.ts)
 
 #### 4) Use the custom pipe just as you use other pipes.
