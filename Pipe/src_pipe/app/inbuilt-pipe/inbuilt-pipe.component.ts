@@ -18,8 +18,9 @@ export class InbuiltPipeComponent implements OnInit {
       "Name" : "Girish",
       "Education" : "Btech-computer"
     }
-  
-    name = "Girish pawar"
+    
+    // Expressions
+    name = "Girish pawar" 
     today = new Date();
     no = 23.4567;
 
