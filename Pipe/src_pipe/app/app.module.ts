@@ -12,7 +12,7 @@ import { MypipePipe } from './mypipe.pipe';
     AppComponent,
     InbuiltPipeComponent,
     CustomePipeComponent,
-    MypipePipe
+    MypipePipe            // Custome pipe entry
   ],
   imports: [
     BrowserModule,
