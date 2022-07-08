@@ -11,7 +11,7 @@ import { ChildComponent } from './child/child.component';
 @NgModule({
   declarations: [
     AppComponent,
-    MyDirDirective,
+    MyDirDirective,   // Custome Directive
     ChildComponent
   ],
   imports: [
