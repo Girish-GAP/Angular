@@ -25,3 +25,21 @@ Expression : is the expression, which you want to transform
  
  pipeArguments  :  arguments to the Pipe
 
+-----------------------------------------------
+
+## Custome Pipe
+
+- we can create our own pipe in Angular.
+
+##### 1) Create new Pipe
+                    ng generate pipe pipe_name
+
+
+##### 2) Make sure entry of cutome pipe inside Angular Module
+[app.module.ts](https://github.com/Girish-GAP/Angular/blob/main/Pipe/src_pipe/app/app.module.ts)
+
+##### 3) Write Custome-pipe logic inside Transform method of pipe file.
+[mypipe.pipe.ts](https://github.com/Girish-GAP/Angular/blob/main/Pipe/src_pipe/app/mypipe.pipe.ts)
+
+##### 4) Use the custom pipe just as you use other pipes.
+[custome-pipe.component.html](https://github.com/Girish-GAP/Angular/blob/main/Pipe/src_pipe/app/custome-pipe/custome-pipe.component.html)
