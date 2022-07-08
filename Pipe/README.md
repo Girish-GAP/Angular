@@ -9,7 +9,9 @@
 
 ## How to use Angular pipes
 
-##### The syntax of the pipe is as follows :
+[inbuilt-pipe.component.ts](https://github.com/Girish-GAP/Angular/blob/main/Pipe/src_pipe/app/inbuilt-pipe/inbuilt-pipe.component.ts)                 |                 [custome-pipe](https://github.com/Girish-GAP/Angular/tree/main/Pipe/src_pipe/app/custome-pipe)
+
+#### The syntax of the pipe is as follows :
           Expression | pipeOperator[:pipeArguments]
 
 
@@ -22,3 +24,4 @@ Expression : is the expression, which you want to transform
  pipeOperator  :  name of the Pipe
  
  pipeArguments  :  arguments to the Pipe
+
