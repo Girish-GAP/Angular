@@ -4,7 +4,7 @@
 
 ## Setup for Client-Sever connection 
 
-[Basic File Structure for connection.](https://github.com/Girish-GAP/Angular/blob/main/Server%26Client/Server-Client_FileStructure.png) 
+[Basic File Structure for connection.](https://github.com/Girish-GAP/Angular/blob/main/Server%26Client/Output_Img/ServerClient_FileStructure-%20Overview.png) 
 
 ------------------------------------------
 Create a new Folder eg. FullStack.
@@ -47,7 +47,7 @@ Create a new Folder eg. FullStack.
 
 ## Client-Server Connection
 
-[Basic Overview of Data Flow](https://github.com/Girish-GAP/Angular/blob/main/Server%26Client/DataFlow_Server-server.png)
+[Basic Overview of Data Flow](https://github.com/Girish-GAP/Angular/blob/main/Server%26Client/Output_Img/DataFlow_Server-server.png)
 
 -----------------------------------------------------
 
@@ -94,9 +94,9 @@ Create a new Folder eg. FullStack.
 
 ### Output :
 
-[Client Output-1](https://github.com/Girish-GAP/Angular/blob/main/Server%26Client/Client_Output.png)
+[Client Output-1](https://github.com/Girish-GAP/Angular/blob/main/Server%26Client/Output_Img/Client_Output.png)
 
-[Client Output-2](https://github.com/Girish-GAP/Angular/blob/main/Server%26Client/Client_Output-2.png)
+[Client Output-2](https://github.com/Girish-GAP/Angular/blob/main/Server%26Client/Output_Img/Client_Output-2.png)
 
-[Server Output](https://github.com/Girish-GAP/Angular/blob/main/Server%26Client/Server_Output.png)
+[Server Output](https://github.com/Girish-GAP/Angular/blob/main/Server%26Client/Output_Img/Server_Output.png)
 
