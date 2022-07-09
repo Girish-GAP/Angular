@@ -21,7 +21,8 @@ function ServerStart(request, response) {
 
 
 // this method for no address specified after '/'
-// '/' represents the root
+// '/' represents the root 
+// it's an end point in which we want to go.
 api.get('/', ServerRoot);       // for root route
 
 
@@ -31,7 +32,7 @@ function ServerRoot(request, response) {
     response.json({ "Status": "Success" });
 }
 
-
+// 'getEmployeeNames' it's an end point in which we want to go.
 api.get('/getEmployeeNames', EmployeeNames);    // custome routing
 
 
