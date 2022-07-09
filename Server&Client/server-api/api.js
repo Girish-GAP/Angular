@@ -37,6 +37,7 @@ api.get('/getEmployeeNames', EmployeeNames);    // custome routing
 
 // First control goes to api.get then it will call EmployeeNames method (it takes an jump)
 // that's why its take more execution time.
+// this function is reusable becase any other can connect it to any other route also.
 // Explicit routing defination
 function EmployeeNames(request, response)   // provides employee name information
 { 
@@ -51,7 +52,7 @@ function EmployeeNames(request, response)   // provides employee name informatio
 
 // Anonymous or fatArrow function to avoid jump of like above method.
 // That's why this method perform fastes execution as compare to above method.
-
+// In this function reusability is not possible.
 // api is the object
 // Inline routing defination
 api.get('/Demo', (request, response)  =>
