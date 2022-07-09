@@ -15,6 +15,8 @@ export class EmployeeDataService {
   getEmployeeNames()
   {
     // connect to srever through http protocol
+    // 'api' name can be anything it's not related to server (api.js) file.
+    // Only requirement is name should be match to prox.conf.json file.
     return this.http.get('/api/getEmployeeNames');
   }
 
