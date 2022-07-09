@@ -91,7 +91,7 @@ To run it automatically after making changes in server file, install [node mon](
 #### If node mon is installed :
             nodemon api.js
 
-#### Run Client :
+#### 2] Run Client :
             ng serve --proxy-config proxy.conf.json --o
 
       
