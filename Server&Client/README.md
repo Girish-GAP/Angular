@@ -87,7 +87,7 @@ Create a new Folder eg. FullStack.
             node api.js
 
 #### Run Client :
-            ng serve --proxy-config proxy.conf.json
+            ng serve --proxy-config proxy.conf.json --o
 
       
 ---------------------------------------
