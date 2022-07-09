@@ -1,6 +1,7 @@
 // This file contains node-js as a run time environment and express-js as a framework
 
 // Import the express-js
+// require function return function handler which is express
 const express = require('express');
 
 
