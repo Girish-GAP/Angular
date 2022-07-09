@@ -76,8 +76,6 @@ Create a new Folder eg. FullStack.
 - This file contains node-js as a run time environment and express-js as a framework.
 - We create the object of express and use it's methods.
 
-<em>[ *Note : If server started by running 'node api.js' then if any change in api.js file require restart server to see effect of changes ]</em>
-
 
 -----------------------------------------------------
 
@@ -85,6 +83,13 @@ Create a new Folder eg. FullStack.
 
 #### 1] Run Server : node server-logic-file.js
             node api.js
+
+<em>[ *Note : If server started by running 'node api.js' then if any change in api.js file require restart server to see effect of changes ]</em>
+
+To run it automatically after making changes in server file, install [node mon](https://www.npmjs.com/package/nodemon).
+
+#### If node mon is installed :
+            nodemon api.js
 
 #### Run Client :
             ng serve --proxy-config proxy.conf.json --o
