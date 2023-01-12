@@ -18,4 +18,4 @@ Angular is a TypeScript-based free and open-source web application framework led
 [15) Pipes](https://github.com/Girish-GAP/Angular/tree/main/Pipe)<br><br>
 [16) Client & Server](https://github.com/Girish-GAP/Angular/tree/main/Server%26Client)<br><br>
 
-[- References](https://github.com/Girish-GAP/Angular/blob/main/Reference.md)
+
